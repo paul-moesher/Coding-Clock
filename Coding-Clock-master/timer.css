@@ -1,0 +1,69 @@
+*{
+    font-family: 'Cute Font', cursive;
+    align-content: center;
+    background-color: lightgray;
+    padding: 1%;
+}
+
+body {
+    background-color: #999cc9;
+    padding: 0px;
+}
+
+p, span {
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.row {
+    margin: 0px !important;
+}
+
+button:focus { outline: none !important; }
+
+.container-for-break {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 2%;
+    max-width:550px;
+    border: 1px solid;
+    width: 44%;
+}
+
+.container-for-session {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 2%;
+    max-width:550px;
+    border: 1px solid;
+    width: 44%;
+}
+
+.container-for-clock {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    max-width:550px;
+    border: 1px solid black;
+    width: 75%;
+}
+
+.smallButton {
+    border: 1px solid black; 
+    align-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+    height: 40px;
+}
+
+.bigTimer {
+    font-size: 50px;
+}
